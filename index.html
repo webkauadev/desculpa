@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desculpa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>responda e decida se kaua merece ser perdoado ou nao</h1>
+        <form id="quizForm">
+            <div class="question">
+                <label for="answer1">voce ama o kaua?</label>
+                <input type="text" id="answer1" name="answer1" placeholder="Sua resposta...">
+            </div>
+            <div class="question">
+                <label for="answer2">voce tem conciencia que o kaua te ama?</label>
+                <input type="text" id="answer2" name="answer2" placeholder="Sua resposta...">
+            </div>
+            <div class="question">
+                <label for="answer3">ele merece perdao?</label>
+                <input type="text" id="answer3" name="answer3" placeholder="Sua resposta...">
+            </div>
+            <button type="button" onclick="checkAnswers()">Enviar Respostas</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
